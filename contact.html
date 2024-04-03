@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Alice Bennett</title>
+        <link rel="stylesheet" href="styleA3contact.css">
+        <link rel="icon" href="slime.jpg">
+    </head>
+    <body>
+        <div id="grid-container">
+            <div class="grid-item1">
+                <div id="button-container">
+                    <div id="button-box1"></div>
+                    <div id="button-box2"></div>
+                    <div id="button-box3"></div>
+                </div>
+                <h1 id="header-text">Alice Bennett</h1>
+            </div>
+            <div class="grid-item2">
+                <div class="nav-grid-container">
+                    <div class="nav-grid-item">
+                        <a href="index.html"><i id="nav-text">main</i></a>
+                    </div>
+                    <div class="nav-grid-item">
+                        <a href="education.html"><i id="nav-text">education</i></a>
+                    </div>
+                    <div class="nav-grid-item">
+                        <a href="work.html"><i id="nav-text">work</i></a>
+                    </div>
+                    <div class="nav-grid-item-selected">
+                        <a href="contact.html"><i id="nav-text">contact</i></a>
+                    </div>
+                </div>   
+                    
+            
+            </div>
+            <div class="grid-item">
+                <h3>here is a list of methods for contacting me</h3>
+                    <ul>
+                        <li class="list-item">Phone Number: (647)-384-7579</li>
+                        <li class="list-item">Work Email: alice.bennett444@gmail.com</li>
+                        <li class="list-item">Personal Email: AliceAntisocial@gmail.com</li>
+                    </ul>
+                
+            </div>
+            <div class="grid-item4">
+                <p>
+                    Thank you so much for visiting my website! As stated in the footer on each page
+                    I wrote this website myself, so if you notice any issues please feel free to let 
+                    me know. This website is a work in progress so any input would be greatly appreciated!
+
+                    -Alice Bennett
+                </p>
+            </div>
+            <div class="grid-item3">
+                <img width="365" height="230" id="photo" src="selfie.jpg" alt="Photo of me">
+            </div>
+            <div class="grid-item5">
+                <div class="form-container">
+                    <p>Feedback Form</p>
+                    <form id="sign-up-form" action="#" novalidate>
+                        <div id="name-input">
+                            <label for="text">Name:</label>
+                            <input type="text" id="text" name="text" alert="false"/>
+                        </div>
+                        <div id="email-input">
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" alert="false" pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$"/>
+                        </div>
+                        <div>
+                            <label for="num">Phone Number:</label>
+                            <input type="num" id="num" name="num" placeholder="(000)-000-0000"/>
+                        </div>
+                        <div id="purpose-input">
+                            <label>What do you need to contact me about?</label>
+                            <div>
+                            <label for="option1">Accessibility Issues</label>
+                            <input type="radio" id="option1" name="options" value="option1">
+                            </div>
+                            <div>
+                            <label for="option2">Job Opportunity</label>
+                            <input type="radio" id="option2" name="options" value="option2">
+                            </div>
+                            <div>
+                            <label for="option3">Errata</label>
+                            <input type="radio" id="option3" name="options" value="option3">
+                            </div>
+                            <div>
+                            <label for="option4">Other</label>
+                            <input type="radio" id="option4" name="options" value="option4">
+                            </div>
+                        </div>
+                        <div>
+                            <label for="text-area">Any other information I should know?</label>
+                            <div>
+                            <textarea id="text-area" name="additional-info"></textarea>
+                            </div>
+                        </div>
+                        <div class="button-container">
+                            <input id="submit-button" type="submit" value="Submit" />
+                        </div>
+                    </form>
+                    <div id="message"></div>
+                </div>
+                
+            </div>
+            <div class="footer">
+                <p id="footer-text">
+                    This website was written by Alice Bennett. For any questions, concerns
+                    or requests for changes to the website (due to accessibility reasons) Alice
+                    Bennett can be reached at alicebennett444@gmail.com or by phone at 
+                    (647)-384-7579
+                </p>
+            </div>
+        </div>
+    </body>
+    <script src="scriptA3Contact.js"></script>
+</html>
